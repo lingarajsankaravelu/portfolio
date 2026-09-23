@@ -75,6 +75,38 @@ export const experience = [
   },
 ];
 
+export const certifications = [
+  {
+    title: "Foundation: Introduction to Langchain - Python",
+    issuer: "LangChain",
+    issued: "Sep 2026",
+    expires: "Sep 2028",
+    credentialId: "qh1esnplxf",
+    skills: ["LangChain"],
+  },
+  {
+    title: "Model Context Protocol: Advanced Topics",
+    issuer: "Anthropic",
+    issued: "May 2026",
+    credentialId: "cqr8svis7d7n",
+    skills: ["Model Context Protocol (MCP)"],
+  },
+  {
+    title: "Introduction to Model Context Protocol",
+    issuer: "Anthropic",
+    issued: "May 2026",
+    credentialId: "fn8ku3iyz59o",
+    skills: ["Model Context Protocol (MCP)"],
+  },
+  {
+    title: "Certificate of completion: Claude 101",
+    issuer: "Anthropic",
+    issued: "Apr 2026",
+    credentialId: "js9ouag8b2on",
+    skills: [],
+  },
+];
+
 export const education = {
   degree: "Master in Computer Application",
   school: "Karpagam College of Engineering, Coimbatore, Tamil Nadu, India",

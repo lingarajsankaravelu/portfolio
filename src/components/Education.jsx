@@ -6,7 +6,7 @@ import { StaggerGroup, StaggerItem } from "./Stagger";
 export default function Education() {
   return (
     <section id="education" className="mx-auto max-w-4xl px-6 py-24">
-      <SectionHeading index="03" eyebrow="Education" title="Where it started" />
+      <SectionHeading index="04" eyebrow="Education" title="Where it started" />
 
       <StaggerGroup>
         <StaggerItem>
