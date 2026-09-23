@@ -80,6 +80,14 @@ export default function Overview() {
               >
                 LinkedIn
               </a>
+              <a
+                href={profile.links.goodreads}
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-full border border-[var(--border)] px-4 py-2 text-xs font-medium text-[var(--text-h)] transition-colors hover:border-[var(--accent)] hover:text-[var(--accent)]"
+              >
+                Goodreads
+              </a>
             </div>
           </SpotlightCard>
         </StaggerItem>

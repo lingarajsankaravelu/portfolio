@@ -71,6 +71,20 @@ export default function Nav({ theme, toggle }) {
               </svg>
             </a>
           )}
+          {profile.links.goodreads && (
+            <a
+              href={profile.links.goodreads}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Goodreads"
+              className="hidden h-9 w-9 place-items-center rounded-full border border-[var(--border)] text-[var(--text)] transition-colors hover:border-[var(--accent)] hover:text-[var(--accent)] sm:grid"
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+                <path d="M4 4.5A1.5 1.5 0 0 1 5.5 3H12v18H5.5A1.5 1.5 0 0 1 4 19.5v-15Z" />
+                <path d="M20 4.5A1.5 1.5 0 0 0 18.5 3H12v18h6.5a1.5 1.5 0 0 0 1.5-1.5v-15Z" />
+              </svg>
+            </a>
+          )}
           <ThemeToggle theme={theme} toggle={toggle} />
           <button
             className="grid h-9 w-9 place-items-center rounded-full border border-[var(--border)] md:hidden"

@@ -55,6 +55,16 @@ export default function Contact() {
           >
             LinkedIn
           </motion.a>
+          <motion.a
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.97 }}
+            href={profile.links.goodreads}
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-full border border-[var(--border)] px-5 py-2.5 font-medium text-[var(--text-h)]"
+          >
+            Goodreads
+          </motion.a>
         </div>
       </Reveal>
 

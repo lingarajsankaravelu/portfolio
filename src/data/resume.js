@@ -10,6 +10,7 @@ export const profile = {
   links: {
     github: "https://github.com/lingarajsankaravelu",
     linkedin: "https://www.linkedin.com/in/lingarajs/",
+    goodreads: "https://www.goodreads.com/user/show/92571948-lingaraj-sankaravelu",
   },
 };
 
