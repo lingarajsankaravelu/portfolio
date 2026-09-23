@@ -14,9 +14,9 @@ export const profile = {
 };
 
 export const highlights = {
-  headline: "AI-native engineering, built on a decade of production systems.",
+  headline: "Full-stack & mobile architect with 10+ years in production systems.",
   blurb:
-    "Bridging mobile and backend ecosystems since 2015 — now focused on integrating LLM orchestration into everyday production workflows.",
+    "Bridging mobile and backend ecosystems since 2015 — recently specializing in integrating LLM orchestration into production workflows.",
   stats: [
     { value: "10+", label: "Years shipping production systems" },
     { value: "2×", label: "Startups acquired — Zapr → Samsung, Digital Aristotle → BYJU'S" },
