@@ -53,44 +53,6 @@ export default function Overview() {
             </div>
           </SpotlightCard>
         </StaggerItem>
-
-        <StaggerItem className="sm:col-span-2 lg:col-span-4">
-          <SpotlightCard className="flex h-full flex-col items-center justify-center gap-4 rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6 sm:flex-row sm:justify-between">
-            <p className="text-sm text-[var(--text)]">Want the full story? Reach out directly.</p>
-            <div className="flex gap-3">
-              <a
-                href={`mailto:${profile.email}`}
-                className="rounded-full bg-[var(--text-h)] px-4 py-2 text-xs font-medium text-[var(--bg)] transition-transform hover:scale-105"
-              >
-                Email
-              </a>
-              <a
-                href={profile.links.github}
-                target="_blank"
-                rel="noreferrer"
-                className="rounded-full border border-[var(--border)] px-4 py-2 text-xs font-medium text-[var(--text-h)] transition-colors hover:border-[var(--accent)] hover:text-[var(--accent)]"
-              >
-                GitHub
-              </a>
-              <a
-                href={profile.links.linkedin}
-                target="_blank"
-                rel="noreferrer"
-                className="rounded-full border border-[var(--border)] px-4 py-2 text-xs font-medium text-[var(--text-h)] transition-colors hover:border-[var(--accent)] hover:text-[var(--accent)]"
-              >
-                LinkedIn
-              </a>
-              <a
-                href={profile.links.goodreads}
-                target="_blank"
-                rel="noreferrer"
-                className="rounded-full border border-[var(--border)] px-4 py-2 text-xs font-medium text-[var(--text-h)] transition-colors hover:border-[var(--accent)] hover:text-[var(--accent)]"
-              >
-                Goodreads
-              </a>
-            </div>
-          </SpotlightCard>
-        </StaggerItem>
       </StaggerGroup>
     </section>
   );
