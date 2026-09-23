@@ -83,6 +83,7 @@ export const certifications = [
     expires: "Sep 2028",
     credentialId: "qh1esnplxf",
     skills: ["LangChain"],
+    verifyUrl: "https://academy.langchain.com/certificates/qh1esnplxf",
   },
   {
     title: "Model Context Protocol: Advanced Topics",
@@ -90,6 +91,7 @@ export const certifications = [
     issued: "May 2026",
     credentialId: "cqr8svis7d7n",
     skills: ["Model Context Protocol (MCP)"],
+    verifyUrl: "https://verify.skilljar.com/c/cqr8svis7d7n",
   },
   {
     title: "Introduction to Model Context Protocol",
@@ -97,6 +99,7 @@ export const certifications = [
     issued: "May 2026",
     credentialId: "fn8ku3iyz59o",
     skills: ["Model Context Protocol (MCP)"],
+    verifyUrl: "https://verify.skilljar.com/c/fn8ku3iyz59o",
   },
   {
     title: "Certificate of completion: Claude 101",
@@ -104,6 +107,7 @@ export const certifications = [
     issued: "Apr 2026",
     credentialId: "js9ouag8b2on",
     skills: [],
+    verifyUrl: "https://verify.skilljar.com/c/js9ouag8b2on",
   },
 ];
 
