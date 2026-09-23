@@ -13,6 +13,17 @@ export const profile = {
   },
 };
 
+export const highlights = {
+  headline: "AI-native engineering, built on a decade of production systems.",
+  blurb:
+    "Bridging mobile and backend ecosystems since 2015 — now focused on integrating LLM orchestration into everyday production workflows.",
+  stats: [
+    { value: "10+", label: "Years shipping production systems" },
+    { value: "2×", label: "Startups acquired — Zapr → Samsung, Digital Aristotle → BYJU'S" },
+  ],
+  exploring: ["LangChain", "Agent Orchestration", "Model Context Protocol", "Local LLM Deployment"],
+};
+
 export const competencies = [
   {
     group: "Artificial Intelligence & Emerging Tech",

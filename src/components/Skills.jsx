@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { competencies } from "../data/resume";
 import SectionHeading from "./SectionHeading";
+import SpotlightCard from "./SpotlightCard";
 import { StaggerGroup, StaggerItem } from "./Stagger";
 
 const pillVariants = {
@@ -16,10 +17,10 @@ export default function Skills() {
       <StaggerGroup className="mt-12 grid gap-6 md:grid-cols-3">
         {competencies.map((group) => (
           <StaggerItem key={group.group}>
-            <motion.div
+            <SpotlightCard
               whileHover={{ y: -4 }}
               transition={{ type: "spring", stiffness: 300, damping: 20 }}
-              className="h-full rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_1px_0_var(--border)]"
+              className="h-full rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_1px_0_var(--border)] transition-colors hover:border-[var(--accent)]"
             >
               <h3 className="text-sm font-semibold text-[var(--text-h)]">{group.group}</h3>
               <div className="mt-4 space-y-4">
@@ -49,7 +50,7 @@ export default function Skills() {
                   </div>
                 ))}
               </div>
-            </motion.div>
+            </SpotlightCard>
           </StaggerItem>
         ))}
       </StaggerGroup>

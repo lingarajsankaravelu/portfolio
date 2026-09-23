@@ -1,6 +1,6 @@
-import { motion } from "framer-motion";
 import { certifications } from "../data/resume";
 import SectionHeading from "./SectionHeading";
+import SpotlightCard from "./SpotlightCard";
 import { StaggerGroup, StaggerItem } from "./Stagger";
 
 export default function Certifications() {
@@ -11,7 +11,8 @@ export default function Certifications() {
       <StaggerGroup className="mt-12 grid gap-4 sm:grid-cols-2">
         {certifications.map((cert) => (
           <StaggerItem key={cert.credentialId}>
-            <motion.a
+            <SpotlightCard
+              as="a"
               href={cert.verifyUrl}
               target="_blank"
               rel="noreferrer"
@@ -57,7 +58,7 @@ export default function Certifications() {
                   </svg>
                 </span>
               </div>
-            </motion.a>
+            </SpotlightCard>
           </StaggerItem>
         ))}
       </StaggerGroup>
