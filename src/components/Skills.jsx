@@ -11,7 +11,7 @@ const pillVariants = {
 export default function Skills() {
   return (
     <section id="skills" className="mx-auto max-w-4xl px-6 py-24">
-      <SectionHeading index="02" eyebrow="Core Competencies" title="What I build with" />
+      <SectionHeading eyebrow="Core Competencies" title="What I build with" />
 
       <StaggerGroup className="mt-12 grid gap-6 md:grid-cols-3">
         {competencies.map((group) => (

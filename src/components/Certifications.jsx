@@ -6,7 +6,7 @@ import { StaggerGroup, StaggerItem } from "./Stagger";
 export default function Certifications() {
   return (
     <section id="certifications" className="mx-auto max-w-4xl px-6 py-24">
-      <SectionHeading index="03" eyebrow="Certifications" title="Keeping up with the LLM stack" />
+      <SectionHeading eyebrow="Certifications" title="Keeping up with the LLM stack" />
 
       <StaggerGroup className="mt-12 grid gap-4 sm:grid-cols-2">
         {certifications.map((cert) => (

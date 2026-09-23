@@ -14,7 +14,7 @@ export default function Experience() {
 
   return (
     <section id="experience" className="mx-auto max-w-4xl px-6 py-24">
-      <SectionHeading index="01" eyebrow="Experience" title="10+ years across startups and scale" />
+      <SectionHeading eyebrow="Experience" title="10+ years across startups and scale" />
 
       <div ref={containerRef} className="relative mt-14 pl-8">
         <div className="absolute left-0 top-0 bottom-0 w-px bg-[var(--border)]" />
