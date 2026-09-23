@@ -7,10 +7,9 @@ export const profile = {
   phone: "+91 8553937697",
   summary:
     "Chief Engineer with 10+ years of experience designing and scaling complex distributed systems, mobile SDKs, and full-stack platforms. Expert in bridging the gap between mobile (Android) and backend ecosystems, with recent specialization in integrating AI/LLM orchestration into production workflows. Adept at driving product success from early-stage startup environments through two successful multi-million dollar acquisitions.",
-  // TODO: resume shows GitHub/LinkedIn/Scholar icons but no URLs were printed as text — fill in your actual profile links here.
   links: {
-    github: "",
-    linkedin: "",
+    github: "https://github.com/lingarajsankaravelu",
+    linkedin: "https://www.linkedin.com/in/lingarajs/",
   },
 };
 
